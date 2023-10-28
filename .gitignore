@@ -1,0 +1,6 @@
+__pytest__
+*.pyc
+.pytest_cache/
+build
+dist
+.idea/

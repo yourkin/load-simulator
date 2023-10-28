@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "load-simulator"
+version = "0.1.0"
+description = "A package to simulate operations load."
+authors = ["Andrew Yourkin <andrew@yourkin.io>"]
+readme = "README.md"
+packages = [{include = "load_simulator", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+typer = "^0.9.0"
+pydantic = "^2.4.2"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.10.1"
+isort = "^5.12.0"
+pytest = "^7.4.3"
+pytest-asyncio = "^0.21.1"
+setuptools = "^68.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
