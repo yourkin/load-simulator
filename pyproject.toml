@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "load-simulator"
-version = "0.1.0"
+version = "0.1.1"
 description = "A package to simulate operations load."
 authors = ["Andrew Yourkin <andrew@yourkin.io>"]
 readme = "README.md"
